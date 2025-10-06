@@ -1,4 +1,4 @@
-import Article from './Article'
+import Article from '../atomes/Article'
 
 function Journal(){
     return(

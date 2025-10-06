@@ -1,4 +1,4 @@
-import Badge from './Badge'
+import Badge from '../atomes/Badge'
 
 function Competences(){
     return(
