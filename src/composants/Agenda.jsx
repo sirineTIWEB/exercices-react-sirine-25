@@ -14,11 +14,13 @@ class Agenda extends React.Component{
     }
 
     render() {
-        return <ul>
-                {this.state.agenda.map((src, index) => (
-                    <li key={index}>{src}</li>
-                ))}
-                </ul>
+        return ( 
+            <ul>
+            {this.state.agenda.map((src, index) => (
+                <li key={index}>{src}</li>
+            ))}
+            </ul>
+        )
     }
 }
 
