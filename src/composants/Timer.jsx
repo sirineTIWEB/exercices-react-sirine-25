@@ -1,8 +1,8 @@
 import React from 'react'
 
 class Timer extends React.Component {
-    constructor(props){
-        super(props)
+    constructor(){
+        super()
         this.state = {
             date: new Date().toLocaleDateString(),
             heure: new Date().toLocaleTimeString()
