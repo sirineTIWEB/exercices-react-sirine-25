@@ -1,15 +1,18 @@
 import React from 'react'
 
-function Timer(){
-    const date = new Date().toLocaleDateString();
-    const heure = new Date().toLocaleTimeString();
+class Timer extends React.Component {
+    constructor(props){
+        super(props)
 
-    return(
-        <>
-            <p>Date: {date}, heure: {heure}</p>
-        </>
+        this.state = {
+            date: new Date().toLocaleDateString(),
+            heure: new Date().toLocaleTimeString()
+        };
+    }
 
-    )
+    render() {
+        return <p>Date: {this.state.date}, heure: {this.state.heure}</p>
+    }
 }
 
 export default Timer
