@@ -1,14 +1,22 @@
 import React from 'react';
+class Header extends React.Component {
 
-class Header extends React.Component{
+    constructor(props) {
+        super(props);
+        //this.myvar = "test";
+    }
 
-    render(){
-        return(
-            <>
-                <h1>Agenda Journalier de {this.props.nom}</h1>
-            </>
-        )
+
+    render() {
+        const { name, children } = this.props;
+        return (
+            <div  className="agenda-header" >
+                <h1> Agenda journalier de {name}</h1>
+                {children}
+            </div>
+        );
     }
 }
 
-export default Header
+
+export default Header;

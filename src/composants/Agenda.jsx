@@ -1,27 +1,29 @@
-import React from 'react';
+import React from "react";
+import Header from "./Header";
+import Curdate from "./Curdate";
+import Taches from "./Taches";
 
-class Agenda extends React.Component{
-    constructor(){
-        super()
 
-        this.state = {
-            agenda: [
-            '8h à 9h: Cours de 3D',
-            '9h à 10h: Cours de REACT',
-            '11h à 17h: Cours de 2D'
-            ]
-        };
-    }
 
-    render() {
-        return ( 
-            <ul>
-            {this.state.agenda.map((src, index) => (
-                <li key={index}>{src}</li>
-            ))}
-            </ul>
-        )
-    }
+class Agenda extends React.Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const { name, tasks } = this.props;
+    return (
+      <div className="agenda-container"  >
+        <Header name={`${name} de frédéric jamoulle `}>
+          <Curdate />
+          <Taches tasks={tasks} ></Taches>
+        </Header>
+      </div>
+    );
+  }
 }
 
-export default Agenda
+
+
+export default Agenda;
