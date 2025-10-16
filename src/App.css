@@ -376,3 +376,55 @@ body {
 .parent-messages-list p:nth-child(even):hover {
   box-shadow: 0 6px 20px rgba(11, 163, 96, 0.6);
 }
+
+/* Incrementer Styles */
+.incrementer-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.incrementer-container::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+  animation: rotate 10s linear infinite;
+}
+
+.incrementer-container > div {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  animation: pulse-number 1s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse-number {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}

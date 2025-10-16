@@ -1,6 +1,8 @@
 import React from 'react';
 import Agenda from './composants/Agenda';
 import Messages from './composants/Messages';
+import Manualincrement from './composants/Manualincrement';
+import Automaticincrement from './composants/Automaticincrement';
 import './App.css';
 
 
@@ -46,6 +48,10 @@ class App extends React.Component {
 
     return (
       <div>
+        <Manualincrement/>
+
+        <Automaticincrement start={0}/>
+
         {this.state.showComponent ? <Messages onUpdate={this.updateMessages}   /> : <div className="component-removed"><p>Composant effacé</p></div>}
 
         <div className="parent-messages-container">
