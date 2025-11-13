@@ -1,0 +1,184 @@
+{
+    "products": [
+        {
+            "catégorie": "Fruits",
+            "nom": "Pomme",
+            "prix": "1€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Laitages",
+            "nom": "Lait demi-écrémé",
+            "prix": "1.2€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Carotte",
+            "prix": "2.5€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Fromages",
+            "nom": "Brie",
+            "prix": "3.5€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Mangue",
+            "prix": "3€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Boissons",
+            "nom": "Jus d'orange",
+            "prix": "2€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Courgette",
+            "prix": "1.5€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Banane",
+            "prix": "1€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Épicerie",
+            "nom": "Riz basmati",
+            "prix": "2.8€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Navet",
+            "prix": "1.2€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Fromages",
+            "nom": "Chèvre frais",
+            "prix": "4€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Kiwi",
+            "prix": "3.5€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Papaye",
+            "prix": "6.5€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Épicerie",
+            "nom": "Pâtes complètes",
+            "prix": "2.3€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Laitages",
+            "nom": "Yaourt nature",
+            "prix": "1.1€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Asperge",
+            "prix": "4.5€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Framboise",
+            "prix": "5€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Orange",
+            "prix": "2€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Boissons",
+            "nom": "Vin rouge",
+            "prix": "7€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Grenade",
+            "prix": "6€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Haricot vert",
+            "prix": "1.8€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Radis",
+            "prix": "1.7€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Viandes",
+            "nom": "Blanc de poulet",
+            "prix": "6.5€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Citrouille",
+            "prix": "4€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Fromages",
+            "nom": "Comté",
+            "prix": "4.8€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Mangoustan",
+            "prix": "8€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Artichaut",
+            "prix": "3.2€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Fruits",
+            "nom": "Litchi",
+            "prix": "7€",
+            "stocke": false
+        },
+        {
+            "catégorie": "Boissons",
+            "nom": "Café moulu",
+            "prix": "3.3€",
+            "stocke": true
+        },
+        {
+            "catégorie": "Légumes",
+            "nom": "Petits pois",
+            "prix": "1€",
+            "stocke": true
+        }
+    ]
+}

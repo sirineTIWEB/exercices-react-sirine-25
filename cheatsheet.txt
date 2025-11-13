@@ -1,0 +1,50 @@
+récuperer date/heure
+
+new Date().toLocaleTimeString()
+
+syntaxe d'ue chaine de characters avec variables
+
+    'txt' + var + 'txt' + var
+    `txt {var} txt´
+
+rafraichir une fonction
+
+    func render(){..}
+    setInterval(render, 3000)
+ 
+syntaxe de map d'un tableau 
+    TAB = ["tableau"]
+
+    {TAB.map((src, index) => (
+        <img key={index} src={src} />
+    ))}
+
+variable dans style 
+
+    // premier crochet = java , deuxieme = objet java
+        <p className="badge" style={{backgroundColor: props.couleur, width: "fit-content", borderRadius: "15px", padding: "5px 10px" }}>
+
+<table>
+  <thead>
+    <tr>
+      <th>Catégorie</th>
+      <th>Nom</th>
+      <th>Prix</th>
+      <th>Stocké</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fruits</td>
+      <td>Pomme</td>
+      <td>1€</td>
+      <td>Oui</td>
+    </tr>
+    <tr>
+      <td>Laitages</td>
+      <td>Lait demi-écrémé</td>
+      <td>1.2€</td>
+      <td>Oui</td>
+    </tr>
+  </tbody>
+</table>
