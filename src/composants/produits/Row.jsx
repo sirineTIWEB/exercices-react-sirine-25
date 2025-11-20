@@ -1,5 +1,5 @@
 import Produits from './Produits.jsx'
-import data from '../assets/produits.json'
+import data from '../../assets/produits.json'
 
 function Row() {
 
