@@ -1,0 +1,93 @@
+.animated-cards-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.card {
+    width: 320px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.card-blue {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+}
+
+.card-pink {
+    background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);
+}
+
+.card-green {
+    background: linear-gradient(135deg, #0096ff 0%, #00d9ff 100%);
+}
+
+.card-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-icon-wrapper {
+    transform: rotate(360deg);
+}
+
+.card-icon {
+    font-size: 35px;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-description {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+}
+
+.card-glow {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-glow {
+    opacity: 1;
+}
